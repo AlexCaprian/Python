@@ -1,0 +1,10 @@
+PI=3.141592
+raio=float(input())
+circunferencia=2*PI*raio
+a_circulo=PI*raio**2
+a_esfera=4*PI*raio**2
+vol_esfera=4/3*PI*raio**3
+print("{0:.6f}".format(round(circunferencia,6)))
+print("{0:.6f}".format(round(a_circulo,6)))
+print("{0:.6f}".format(round(a_esfera,6)))
+print("{0:.6f}".format(round(vol_esfera,6)))
